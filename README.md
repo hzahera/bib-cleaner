@@ -10,7 +10,7 @@
 
 ## Overview
 
-BibCleaner is a lightweight, production-ready Python toolkit designed for researchers and academics to automatically clean, validate, and enrich BibTeX bibliographies. It leverages the Semantic Scholar API to replace incomplete arXiv references with published venue metadata and expand author attribution information.
+BibCleaner is a lightweight Python toolkit designed for researchers and academics to automatically clean, validate, and enrich BibTeX bibliographies. It leverages the Semantic Scholar API to replace incomplete arXiv references with published venue metadata and expand author attribution information.
 
 ## Key Features
 
@@ -89,22 +89,9 @@ cleaner.write_bib(cleaned_entries, 'references_cleaned.bib')
 - 📊 Maintaining up-to-date reference collections
 - 🏢 Batch processing institutional bibliography databases
 
-## Citation
-
-If you use BibCleaner in your research, please cite it:
-
-```bibtex
-@software{bibcleaner2026,
-  author = {Zahera, Hassan},
-  title = {BibCleaner: Automated BibTeX Enrichment Toolkit},
-  year = {2026},
-  url = {https://github.com/hzahera/bib-cleaner}
-}
-```
-
 ## Contributing
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+Contributions and feedback are welcome! Please feel free to submit issues or pull requests.
 
 ## License
 
@@ -116,4 +103,4 @@ For issues, feature requests, or questions, please [open an issue](https://githu
 
 ---
 
-**Developed for researchers, by researchers.**
+**Developed for researchers, by Hamada Zahera.**
